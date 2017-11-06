@@ -1,5 +1,17 @@
 import Foundation
 
+
+/*
+ To: Hannah
+ 
+ FOR DEPENDENCIES: please refer "https://github.com/hyoungsp/swiftPackageLibForScrabbleWords.git"
+ 
+ because we cannot refer to a swift package library with private gitHubbecause
+ 
+ So, I created swift library package "scrabbleLibrary" on my public github account.
+ 
+ */
+
 // char key and its value in the game
 let tileScore  = ["a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
                   "f": 4, "i": 1, "h": 4, "k": 5, "j": 8, "m": 3,
