@@ -1,3 +1,5 @@
+import Foundation
+
 // char key and its value in the game
 let tileScore  = ["a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
                   "f": 4, "i": 1, "h": 4, "k": 5, "j": 8, "m": 3,
@@ -25,7 +27,7 @@ public struct Word {
     public var wordsSequecebyScrabbleWords: [String: Int] = [:]
     
     public init(word: String) {
-        let scrabbleWords: String = "/Users/hyoungsunpark/Desktop/mpcsSwift/HW3_problem03/3letter_words.txt"
+        let scrabbleWords: String = "https://github.com/hyoungsp/swiftPackageLibForScrabbleWords/blob/master/3letter_words.txt"
         self.word = word
         do {
             let data = try String(contentsOfFile: scrabbleWords, encoding: String.Encoding.utf8)
